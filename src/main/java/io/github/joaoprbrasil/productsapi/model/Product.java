@@ -1,10 +1,26 @@
 package io.github.joaoprbrasil.productsapi.model;
 
+import jakarta.persistence.*;
+//pacote de específicação do java
+
+
 // POJO -> Plain Old Java Object
+
+@Entity
+@Table(name = "product")
 public class Product {
+
+    @Id
+    @Column(name = "id")
     private String id;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "description")
     private String description;
+
+    @Column(name = "price")
     private Double price;
 
     public String getId() {
