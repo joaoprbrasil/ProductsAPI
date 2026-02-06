@@ -11,8 +11,8 @@
 	<groupId>io.github.joaoprbrasil</groupId>
 	<artifactId>productsapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Produtos API</name>
-	<description>API de Produtos</description>
+	<name>Products API</name>
+	<description>Products API</description>
 	<url/>
 	<licenses>
 		<license/>
